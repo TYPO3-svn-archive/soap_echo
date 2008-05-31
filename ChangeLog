@@ -1,0 +1,36 @@
+08-04-27 ExtensionCoordinationTeam,Daniel Bruessler <danielb@typo3.org>
+
+	* PEAR: changes for common usage of includePEAR(Array $pkgArray), isPackageInstalled(String $pkg)
+	* translation: moved all texts to locallang.xml, tested all - OK
+	* test: TYPO3 4.1.5 on Linux Ubuntu 7.10 Gutsy Gibbon - OK
+	* test: TYPO3 4.2RC2 on Linux Ubuntu 7.10 Gutsy Gibbon - OK	
+	* version: 0.1.4 BETA
+
+08-04-12 ExtensionCoordinationTeam,Daniel Bruessler <danielb@typo3.org>
+
+	* test: TYPO3 4.0.0 on Linux Debian - OK
+	* errormessage: check if pear-Extension exists
+	* errormessage: bugfix in moduleContent/ PEAR dependency
+	* CGL: classnames and constructors
+	* TODO: care for CodingGuidelines http://typo3.org/documentation/document-library/core-documentation/doc_core_cgl/4.1.0/view/1/2/#id3516120
+	* version: 0.1.3 BETA
+
+08-04-12 ExtensionCoordinationTeam,Daniel Bruessler <danielb@typo3.org>
+
+	* constant: PATH_typo3conf in server.php is set dynamically
+	* version: 0.1.2 BETA
+
+08-04-12 ExtensionCoordinationTeam,Daniel Bruessler <danielb@typo3.org>
+
+	* depends: second dependency PHP 5 (so extkey does not get lost while upload in 4.1.5)
+	* test: TYPO3 4.1.5 on Linux Ubuntu 7.10 Gutsy Gibbon - OK
+	* test: TYPO3 4.1.1 on Linux Debian - OK
+	* errormessage: function addErrorMessage, show error when PEAR_SOAP is not installed
+	* version: 0.1.1 BETA
+
+08-04-11 ExtensionCoordinationTeam,Daniel Bruessler <danielb@typo3.org>
+
+	* Initial release: created server with all extra functions
+	* added auto-pilot for include_path
+	* ext and module-icon  
+	* version: 0.1.0 BETA

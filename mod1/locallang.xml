@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;tools_txsoapechoM1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="title">SOAP echo</label>
+			<label index="function1">local echo server - echoText</label>
+			<label index="function2">external server - getInfoForIP</label>
+			<label index="resultOfLocalWebservice">The result of soap_echo/server.php</label>
+			<label index="resultOfWebservice">The result of the webservice</label>			<label index="resultOfLocalWebservice">The result of soap_echo/server.php</label>
+			<label index="addressOfWebservice">Your SOAP-server has this address</label>
+
+			<label index="country">Country</label>
+			<label index="continent">Continent</label>
+			<label index="currency">Currency</label>
+			
+			<label index="settings_goToPEARManager">Go to PEAR Manager</label>
+			<label index="settings_goToExtensionManager">Go to Extension Manager</label>
+			<label index="settings_getExtension">You need to install the extension "pear".</label>
+			<label index="settings_IP_W3C">IP of the World Wide Web Consortium</label>
+			
+			<label index="error">An error has occurred</label>			
+			<label index="error_PEAR_dependency">An error has occurred - You need to install the PEAR-package</label>		
+			<label index="error_PEAR_dependency2">or higher</label>
+			
+			<label index="tests_expected">expected result is</label>			
+			
+		</languageKey>
+		
+		<languageKey index="de" type="array">
+			<label index="title">SOAP echo</label>
+		</languageKey>
+	</data>
+</T3locallang>
